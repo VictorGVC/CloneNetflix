@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+label, p, h2{
+    color: white;
+}
+
+header {
+    height: 50px;
+    padding: 10px 7px;
+}
+
+header img {
+    width: 111px;
+}
