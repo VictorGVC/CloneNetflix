@@ -1,0 +1,63 @@
+.profile>img,
+.add-profile>img {
+    width: 120px;
+    height: 120px;
+}
+
+.main-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.main-container>h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.profiles-container {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    padding: 10px;
+
+}
+
+.profile>img {
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+.add > img {
+    border-radius: 60px;
+}
+
+.profile>img:hover {
+    border: solid 1px white;
+}
+
+.profile>label {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+@media(max-width: 509px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+}
