@@ -1,0 +1,123 @@
+p {
+    font-family: 'Martel Sans', sans-serif;
+    color: rgb(114, 114, 114);
+}
+
+h1 {
+    font-family: 'Martel Sans', sans-serif;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(114, 114, 114);
+    border: none;
+    margin: 10px 0px;
+}
+
+.input-container>img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.input-container>.input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input:focus {
+    
+    border: solid 1px white;
+}
+
+input {
+    color: white;
+    background-color: rgb(66, 66, 66);
+    height: 35px;
+    width: 100%;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+
+::placeholder {
+    color: rgb(163, 163, 163);
+}
+
+.input-container {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    padding: 8px 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+main {
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-container {
+    margin: 20px 0px;
+}
+
+.confirm {
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-right: 20px;
+}
+
+.cancel {
+    color: rgb(163, 163, 163);
+    background-color: black;
+    border: solid 1px rgb(163, 163, 163);
+}
+
+@media(max-width: 600px) {
+
+    main {
+        width: 80%;
+    }
+}
+
+@media(max-width: 510px) {
+
+    .button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+    }
+
+    .input-container>img {
+        margin: 0 auto;
+    }
+    
+    input {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
