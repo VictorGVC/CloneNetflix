@@ -8,17 +8,34 @@
 
 body {
     background-color: #000;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50px 1fr;
 }
 
-label, p, h2{
-    color: white;
+label, p, h2 {
+    
+    color: rgb(197, 197, 197);
+}
+
+h1 {
+    color: rgb(216, 216, 216);
 }
 
 header {
     height: 50px;
-    padding: 10px 7px;
+    padding: 10px 10px;
 }
 
-header img {
+header>img {
+    cursor: pointer;
     width: 111px;
+}
+
+@media(max-width: 510px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
 }
