@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px;
+}
+
+nav > a:first-child {
+    font-weight: bold;
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    margin: 0 auto;
+    margin: 0px 10px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 13px;
+}
+
+.profile {
+    height: 100%;
+    cursor: pointer;
+}
+
+header > div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    margin-left: 35px;
+}
+
+.right-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    transition: all .5s ease;
+}
+
+input {
+    width: 0px;
+    opacity: 0;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: solid 1px white;
+    transition: all .5s ease;
+    height: 80%;
+    outline: none;
+}
+
+#search {
+    cursor: pointer;
+}
+
+.search-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
