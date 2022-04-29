@@ -9,4 +9,3 @@ const addProfile = name => {
     const newProfile = { img: `./img/Profile${image}.png`, name }
     profiles.push(newProfile)
 }
-
